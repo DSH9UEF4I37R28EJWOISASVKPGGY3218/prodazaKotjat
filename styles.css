@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #2a1433;
+    color: #ffffff;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: #551a8b;
+}
+
+#logo {
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+#logo img {
+    max-height: 25px; 
+    margin-right: 10px; 
+}
+#logo span {
+    font-weight: bold;
+}
+
+.header-search {
+    margin-right: 20px;
+}
+
+#search input {
+    margin-right: 5px;
+}
+main {
+    padding: 20px;
+}
+
+#announcement {
+    background-image: url('kotjata.jpg');
+    background-size: 100% 100%;
+    background-position: center;
+    text-align: center;
+    padding: 50px;
+    margin-bottom: 20px;
+    height: 600px; 
+    color: #551a8b;
+}
+
+.kittens {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.kitten {
+    text-align: center;
+}
+
+.kitten img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+footer {
+    background-color: #551a8b;
+    padding: 10px;
+    position: relative;
+    margin-top: 5px;
+    width: 100%;
+    text-align: center;
+}
+
+#footer-content {
+    color: #ffffff;
+}
+
+#footer-content {
+    color: #ffffff;
+}
